@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'demo1.ui'
+# Form implementation generated from reading ui file 'demo.ui'
 #
 # Created by: PyQt5 UI code generator 5.9.2
 #
@@ -51,8 +51,6 @@ class Ui_MainWindow(object):
         self.verticalLayout.setObjectName("verticalLayout")
         self.pushButton = QtWidgets.QPushButton(self.widget)
         self.pushButton.setObjectName("pushButton")
-        print(self.pushButton.sizeHint().width())
-        print(self.pushButton.sizeHint().height())
         self.verticalLayout.addWidget(self.pushButton)
         self.pushButton_2 = QtWidgets.QPushButton(self.widget)
         self.pushButton_2.setObjectName("pushButton_2")
