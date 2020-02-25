@@ -22,7 +22,7 @@ class QuitApplication(QMainWindow):
         mainFrame = QWidget()
         mainFrame.setLayout(layout) #把layout放在主框架上
 
-        self.setCentralWidget(mainFrame)#把主框架充满整个屏幕
+        self.setCentralWidget(mainFrame)#把主框架充满整个窗口
     """按钮单击事件的方法,相当于槽(事件得方法)"""
     def onClick_Button(self):
         sender = self.sender() #sender 获取发送信号的对象，也就是button
