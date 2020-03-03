@@ -30,7 +30,7 @@ class QTextEditDemo(QWidget):
         self.tobuttonText.clicked.connect(self.onClicktoButtonText)
         self.tobuttonHTML.clicked.connect(self.onclicktoButtonHTML)
     def onClickButtonText(self):
-        self.textEdit.setPlainText('Hello World,世界你好吗？')
+        self.textEdit.setPlainText('Hello World,世界你好吗？\nhaha')
     def onClicktoButtonText(self):
         print(self.textEdit.toPlainText())
     def onclickButtonHTML(self):
